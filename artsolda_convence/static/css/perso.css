@@ -1,0 +1,459 @@
+.ftco-footer {
+	font-size: 16px;
+	background: #1b212c;
+	padding: 5em 0;
+}
+
+.ftco-footer-social li a span {
+	position: absolute;
+	font-size: 26px;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.ftco-footer-social li {
+	list-style: none;
+	margin: 0 10px 10px 0;
+	display: inline-block;
+}
+
+.ftco-animate {
+	opacity: 0;
+	visibility: hidden;
+}
+
+.fadeInUp {
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+
+.ftco-animated {
+	-webkit-animation-duration: .5s;
+	animation-duration: .5s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+*, *::before, *::after {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.ftco-footer .ftco-footer-widget h2 {
+	font-weight: 300;
+	font-size: 20px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	line-height: 1.5;
+}
+
+.ftco-footer .ftco-footer-widget h2, .ftco-footer .ftco-footer-widget h4 {
+	font-weight: normal;
+	color: rgba(255, 255, 255, 0.9);
+}
+
+.ftco-footer .ftco-footer-widget .email {
+	font-size: 16px;
+	letter-spacing: 5px;
+}
+
+.ftco-footer .ftco-footer-widget .email a {
+	color: #fff;
+}
+
+.ftco-footer p {
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.header-top .header-top-right a:hover i {
+	color: #FF8402;
+}
+
+.nav-menu li a:hover{
+	color: #FF8402;
+}
+
+.header-btn{
+	background-color: #FF8402;
+}
+
+.header-btn:hover{
+	color: #FF8402;
+	border-color: #FF8402;
+}
+
+
+
+.art-solda-content{
+	background: #000000f0; padding: 40px 20px; border-top-left-radius: 11px; border-top-right-radius: 11px;
+}
+
+.about{
+	position: relative;
+	text-align: center;
+	 padding: 0px 8px;
+	/*border: 1px solid #eee;*/
+	/* margin: 15px 0; */
+	background: black;
+}
+
+.p-site{
+	font-weight: 500; font-size: 14px
+}
+
+.video-content{
+	border-right: 1px solid #FF8402;
+}
+
+.art_content{
+	padding: 0;
+}
+
+.portf_input{
+	width: 100%;
+	border-radius: 20px!important;
+	padding: 8px 10px;
+	font-size: 16px;
+	border: black solid 1px;
+	margin-bottom: 30px;
+}
+
+.portf_content-i .portf_input{
+	width: 100%;
+	border-radius: 11px!important;
+	padding: 8px 10px;
+	font-size: 16px;
+	border: black solid 1px;
+	margin-bottom: 0px;
+}
+
+.portf_content{
+	height: 38px;
+	border-right: 2px solid #00000091;
+	margin-bottom: 10px;
+}
+
+.portf_content-i{
+	/*height: 38px;*/
+	/*border-right: 2px solid #00000091;*/
+	margin-bottom: 10px;
+}
+
+.portf_content-i .portf_submit{
+	width: 100%;
+	border-radius: 11px;
+	border: 1px solid #FF8402;
+}
+
+.portf_content-i .portf_submit{
+	background-color: #FF8402;
+	border: 1px solid black;
+	color: black;
+}
+
+.portf_content-i .portf_submit:hover{
+	background-color: #000000f0;
+	color: #FF8402;
+	border-color: #FF8402;
+}
+
+.img-content{
+	padding: 30px 15px 0;
+}
+
+.contact .portf_input{
+	font-size: 14px;
+}
+
+.contact .portf_input::placeholder{
+	font-size: 14px;
+}
+
+.contact-page-area .form-area textarea {
+	border-radius: 20px;
+}
+.contact-page-area .form-area textarea::placeholder {
+	font-size: 14px;
+}
+.portf_input:focus{
+	outline-width: 0;
+}
+
+.portf_input::placeholder{
+	font-size: 16px;
+}
+
+.portf_submit{
+	width: 90%;
+	border-radius: 20px;
+	padding: 8px 10px;
+	border: #FF8402 solid 1px;
+	cursor: pointer;
+	background-color: #000000f0;
+	color: #FF8402;
+	font-size: 16px;
+	transition: background-color 0.1s ease-in;
+}
+
+.portf_submit:focus{
+	outline-width: 0;
+	/*border: 1px solid black;*/
+	background-color: #c86e0f;
+}
+
+.portf_submit:hover{
+	background-color:#FF8402;
+	border: 1px solid black;
+	color:  #000000f0;
+}
+
+.gallery-area .single-gallery {
+	margin-bottom: 0px;
+}
+
+.single-testimonial{
+	background-color: transparent;
+	border: 1px solid #FF8402;
+	color: #000000f0;
+	height: 480px;
+}
+
+
+.single-testimonial h4{
+	color: #000000f0;
+	margin-top: 152px;
+}
+
+.single-testimonial h4:hover{
+	color: #FF8402;
+}
+
+.single-testimonial:hover h4{
+	color: #FF8402;
+}
+
+.testimonial-area .owl-dots{
+	margin-top: 40px;
+}
+
+.single-testimonial .star .checked{
+	color: #FF8402;
+}
+
+.testimonial-area .owl-dot.active {
+	background: #FF8402;
+}
+
+.testimonial-area .owl-dot {
+	background: #ff840257;
+}
+
+.contact-page-area .single-contact-address .lnr {
+	color: #FF8402;
+
+}
+
+.contact-page-area .map-wrap {
+	margin-bottom: 0px;
+}
+
+.contact-page-area .single-contact-address h5 {
+	color: white;
+}
+
+.content-image{
+	height: 420px;
+	border-radius: 11px;
+}
+
+.primary-btn{
+	background-color: #FF8402;
+}
+
+.gallery-area .single-gallery .content-title {
+	border-bottom: 1px solid #FF8402;
+}
+
+.gallery-area .single-gallery .content .content-overlay{
+	border: 1px solid #FF8402;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+	z-index:100;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+#flex-box-form {
+	display: flex;
+}
+
+#card-form{
+	background: #151212d6;
+	padding: 20px;
+	border-radius: 11px;
+	margin-top: 100px;
+	border: 1px solid #ff8402;
+	position: relative;
+	top: 50px;
+	left: 70px
+}
+
+.contact-u{
+	float: right;
+}
+@media screen and (max-width: 1024px){
+	.single-testimonial{
+		height: 510px;
+	}
+	.single-testimonial h4{
+		margin-top: 174px;
+	}
+
+	#card-form{
+		top: 400px;
+		left: 0;
+	}
+
+	#inicio{
+		background-position: -1120px !important;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+	.video-content{
+		margin-bottom: 30px;
+		border: none;
+	}
+	.portf_content{
+		border-right: none;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.portf_submit{
+		width: auto!important;
+	}
+	.ftco-footer .ftco-footer-widget .email{
+		font-size:10px;
+	}
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+	.single-testimonial{
+		height: auto;
+	}
+	#card-form{
+		top: 135px;
+		left: 0;
+	}
+
+	.single-testimonial{
+		/*height: 795px;*/
+	}
+	.single-testimonial h4{
+		margin-top: 374px;
+	}
+
+	#mgp{
+		margin-top: 260px;
+	}
+
+	#center{
+		text-align: center;
+	}
+
+	#inicio{
+		background-position: -765px !important;
+	}
+	.content-image{
+		height: auto;
+	}
+	#flex-box-form {
+		display: block;
+	}
+	.video-content{
+		margin-bottom: 30px;
+		border: none;
+	}
+	.portf_content{
+		border-right: none;
+		margin-bottom: 20px;
+		text-align: center;
+	}
+	.portf_submit{
+		width: auto!important;
+	}
+
+	.contact-u{
+		float: none;
+	}
+	.ftco-footer .ftco-footer-widget .email{
+		font-size:10px;
+	}
+	#div-prob{
+		display: block !important;
+	}
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+	#mgp{
+		margin-top: 241px;
+	}
+
+	.testimonial-area{
+		height: auto;
+	}
+}
+
+@media screen and (min-width: 410px) and (max-width: 767px) {
+	#mgp{
+		margin-top: 173px;
+	}
+
+	.testimonial-area{
+		height: auto;
+	}
+}
+
+@media screen and (min-width: 760px) and (max-width: 1020px) {
+	#mgp{
+		margin-top: 152px;
+	}
+
+	.testimonial-area{
+		height: auto;
+	}
+
+	.content-image{
+		height: auto;
+	}
+
+	#card-form{
+		top: 240px;
+		left: 0;
+	}
+
+	#inicio{
+		background-position: -845px !important;
+	}
+
+	.single-testimonial{
+		height: auto !important;
+	}
+}
